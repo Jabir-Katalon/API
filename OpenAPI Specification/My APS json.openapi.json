@@ -1,0 +1,218 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "My Project",
+    "description": "",
+    "version": "1.0.0"
+  },
+  "tags": [],
+  "paths": {
+    "/member": {
+      "post": {
+        "summary": "Create Member",
+        "deprecated": false,
+        "description": "",
+        "tags": [],
+        "parameters": [],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "username": {
+                    "example": "valtest0614",
+                    "type": "string"
+                  },
+                  "password": {
+                    "example": "mypasswgghug2",
+                    "type": "string"
+                  },
+                  "emailAddress": {
+                    "example": "V.Vovk@readinga-z.com",
+                    "type": "string"
+                  },
+                  "firstName": {
+                    "example": "Tyler",
+                    "type": "string"
+                  },
+                  "lastName": {
+                    "example": "Finateri",
+                    "type": "string"
+                  },
+                  "phone": {
+                    "example": "123-123-1234",
+                    "type": "string"
+                  },
+                  "fax": {
+                    "example": "123-123-1234",
+                    "type": "string"
+                  },
+                  "street1": {
+                    "example": "3767 Ranchero Dr",
+                    "type": "string"
+                  },
+                  "street2": {
+                    "example": "Suite 200",
+                    "type": "string"
+                  },
+                  "city": {
+                    "example": "Ann Arbor",
+                    "type": "string"
+                  },
+                  "countryId": {
+                    "example": "1",
+                    "type": "string"
+                  },
+                  "provinceId": {
+                    "example": "23",
+                    "type": "string"
+                  },
+                  "postalCode": {
+                    "example": "48108",
+                    "type": "string"
+                  },
+                  "occupationId": {
+                    "example": "13",
+                    "type": "string"
+                  },
+                  "returnUuid": {
+                    "example": "1",
+                    "type": "string"
+                  },
+                  "coppaVerificationMethodId": {
+                    "example": "16",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "username",
+                  "password",
+                  "emailAddress",
+                  "firstName",
+                  "lastName",
+                  "phone",
+                  "fax",
+                  "street1",
+                  "street2",
+                  "city",
+                  "countryId",
+                  "provinceId",
+                  "postalCode",
+                  "occupationId",
+                  "returnUuid"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                }
+              }
+            }
+          }
+        },
+        "security": []
+      }
+    },
+    "/uuids/uuid/22": {
+      "get": {
+        "summary": "Get UUID",
+        "deprecated": false,
+        "description": "",
+        "tags": [],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                }
+              }
+            }
+          }
+        },
+        "security": []
+      }
+    },
+    "/uuids/member/e24311fe-2408-11ef-b6ec-005056b7eab2": {
+      "get": {
+        "summary": "Lookup Member",
+        "deprecated": false,
+        "description": "",
+        "tags": [],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                }
+              }
+            }
+          }
+        },
+        "security": []
+      }
+    },
+    "/member/36958500000": {
+      "patch": {
+        "summary": "Lookup for member's is_test status",
+        "deprecated": false,
+        "description": "",
+        "tags": [],
+        "parameters": [],
+        "requestBody": {
+          "content": {
+            "application/x-www-form-urlencoded": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "isTest": {
+                    "example": "1",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "isTest"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {}
+                }
+              }
+            }
+          }
+        },
+        "security": []
+      }
+    }
+  },
+  "components": {
+    "schemas": {},
+    "securitySchemes": {}
+  },
+  "servers": []
+}
