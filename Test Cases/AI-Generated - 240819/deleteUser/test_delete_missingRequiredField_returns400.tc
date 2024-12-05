@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_delete_missingRequiredField_returns400</name>
+   <tag>API_Test_Generation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>69c5eb38-6dc2-4a75-b75d-45858c238a7d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_put_invalidStatusValue_returns422</name>
+   <tag>API_Test_Generation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d81c78ae-c8be-4cf9-ae59-3c6981894afe</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_post_createUserWithListMissingUsername_returns200</name>
+   <tag>API_Test_Generation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>923b68bc-ba2f-4ab7-8880-a45e3cee5e3e</testCaseGuid>
+</TestCaseEntity>

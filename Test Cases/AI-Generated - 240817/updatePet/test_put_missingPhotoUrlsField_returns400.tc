@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_put_missingPhotoUrlsField_returns400</name>
+   <tag>API_Test_Generation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>494a47d7-6a12-4759-9d36-8d45f538a0a1</testCaseGuid>
+</TestCaseEntity>

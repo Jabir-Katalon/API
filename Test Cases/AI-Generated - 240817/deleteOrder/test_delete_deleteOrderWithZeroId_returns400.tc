@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_delete_deleteOrderWithZeroId_returns400</name>
+   <tag>API_Test_Generation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d41cea6f-e5d5-4013-a5ba-ea441dd03d88</testCaseGuid>
+</TestCaseEntity>

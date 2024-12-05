@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_put_invalidCategoryId_returns422</name>
+   <tag>API_Test_Generation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ddf1ffb8-87ef-403f-bd37-326ebb745b66</testCaseGuid>
+</TestCaseEntity>

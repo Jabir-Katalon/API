@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_delete_nonExistingPetId_returns400</name>
+   <tag>API_Test_Generation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>86720c2d-290e-4fe7-8d82-b50a6dfd040f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_get_logoutWithoutSession_returns0</name>
+   <tag>API_Test_Generation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bc83932a-3107-4e14-b5fc-4018f6c59929</testCaseGuid>
+</TestCaseEntity>

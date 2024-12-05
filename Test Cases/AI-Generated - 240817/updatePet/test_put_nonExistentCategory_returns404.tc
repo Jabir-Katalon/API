@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_put_nonExistentCategory_returns404</name>
+   <tag>API_Test_Generation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b957b379-2fb1-4e93-8125-2ae165dee62b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_put_nonExistingUser_returns404</name>
+   <tag>API_Test_Generation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>84ddc0d6-e3f5-4520-8aff-8e07b603f6a1</testCaseGuid>
+</TestCaseEntity>

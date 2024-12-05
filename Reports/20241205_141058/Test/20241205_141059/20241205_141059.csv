@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test,,,,05-12-2024 14:11:05,05-12-2024 14:11:08,2.946s,ERROR
+,,,,,,,
+Test Cases/AI-Generated - 240819/addPet/test_post_invalidCategory_returns422,,,API_Test_Generation,05-12-2024 14:11:06,05-12-2024 14:11:08,2.573s,FAILED
+uuid = randomUUID().toString(),,,,05-12-2024 14:11:06,05-12-2024 14:11:06,0.014s,PASSED
+"petPayload = new com.kms.katalon.core.testobject.impl.HttpTextBodyContent(this.replaceSuffixWithUUID({""name"": ""doggie"", ""photoUrls"": [""url1"", ""url2""], ""category"": {""id"": 999, ""name"": ""InvalidCategory__unique__""}, ""status"": ""available""}))",,,,05-12-2024 14:11:06,05-12-2024 14:11:06,0.004s,PASSED
+"replacedString = payload.replaceAll(""unique__"", uuid)",,,,05-12-2024 14:11:06,05-12-2024 14:11:06,0.002s,PASSED
+return replacedString,,,,05-12-2024 14:11:06,05-12-2024 14:11:06,0.007s,PASSED
+"addPetRequest = findTestObject(""Object Repository/Swagger Petstore - OpenAPI 3_0 (4)/_pet/addPet"")",,,,05-12-2024 14:11:06,05-12-2024 14:11:06,0.117s,PASSED
+addPetRequest.setBodyContent(petPayload),,,,05-12-2024 14:11:06,05-12-2024 14:11:06,0.016s,PASSED
+addHeaderConfiguration(addPetRequest),,,,05-12-2024 14:11:06,05-12-2024 14:11:06,0.001s,PASSED
+"content_type_header = new com.kms.katalon.core.testobject.TestObjectProperty(content-type, com.kms.katalon.core.testobject.ConditionType.EQUALS, application/json)",,,,05-12-2024 14:11:06,05-12-2024 14:11:06,0.009s,PASSED
+getHttpHeaderProperties().add(content_type_header),,,,05-12-2024 14:11:06,05-12-2024 14:11:06,0.003s,PASSED
+addPetResponse = sendRequest(addPetRequest),,,,05-12-2024 14:11:06,05-12-2024 14:11:08,2.038s,PASSED
+"verifyResponseStatusCode(addPetResponse, 422)",,,,05-12-2024 14:11:08,05-12-2024 14:11:08,0.068s,FAILED
+,,,,,,,
+Test Cases/AI-Generated - 240819/addPet/test_post_invalidStatus_returns422,,,API_Test_Generation,05-12-2024 14:11:08,05-12-2024 14:11:08,0.169s,ERROR
+uuid = randomUUID().toString(),,,,05-12-2024 14:11:08,05-12-2024 14:11:08,0.002s,PASSED
+"categoryRequest = findTestObject(""Object Repository/Swagger Petstore - OpenAPI 3_0 (4)/_category/createCategory"")",,,,05-12-2024 14:11:08,05-12-2024 14:11:08,0.002s,PASSED
+"categoryPayload = new com.kms.katalon.core.testobject.impl.HttpTextBodyContent(this.replaceSuffixWithUUID({""id"": 1, ""name"": ""Dogs""}))",,,,05-12-2024 14:11:08,05-12-2024 14:11:08,0.001s,PASSED
+"replacedString = payload.replaceAll(""unique__"", uuid)",,,,05-12-2024 14:11:08,05-12-2024 14:11:08,0.002s,PASSED
+return replacedString,,,,05-12-2024 14:11:08,05-12-2024 14:11:08,0.001s,PASSED
+categoryRequest.setBodyContent(categoryPayload),,,,05-12-2024 14:11:08,05-12-2024 14:11:08,0.021s,ERROR

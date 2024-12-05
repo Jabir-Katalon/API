@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_get_orderIdGreaterThan10_returns404</name>
+   <tag>API_Test_Generation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>22b6230d-893f-47ee-b0d0-b1a7679706b9</testCaseGuid>
+</TestCaseEntity>

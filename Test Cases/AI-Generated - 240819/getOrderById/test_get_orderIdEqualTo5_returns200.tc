@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_get_orderIdEqualTo5_returns200</name>
+   <tag>API_Test_Generation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8c3edfe1-c549-4e2a-85d4-23d0c7f90f2f</testCaseGuid>
+</TestCaseEntity>
